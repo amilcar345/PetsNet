@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETS.NET</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+         
+            <div class="logo">
+                <img src="img/logo proa.jpg" alt="Logo de Pets.net" height="70" width="70">
+                <img src="img/b52dccd2-bb5f-4814-a365-88ef0fc311bd.jpeg " alt="Logo de Pets.net" height="70" width="70">
+            </div>
+            <div class="search-bar">
+                <input type="text" id="buscador" placeholder="Buscar refugios..." class="buscador">
+                <button class="boton" onclick="buscar()">Buscar</button>
+            </div>
+        </section>
+    </header>
+
+    <nav class="navigation">
+        <button type="button" class="btn">Adopción</button>
+        <button type="button" class="btn">Refugios</button>
+        <button type="button" class="btn">Contacto</button>
+        <button type="button" class="btn">Nosotors</button>
+        <button type="button" class="btn">Donar</button>
+        <button type="button" class="btn" onclick="window.location.href='sobre-nosotros.html'">Nosotros</button>
+
+    </nav>
+
+
+    <main>
+        <section class="carousel-container" >
+            <div class="carousel">
+                <div class="carousel-item">
+                    <img src="img/2.jpeg" alt="Animal 1" height="5" width="5">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/3.jpeg" alt="Animal 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/animal3.jpg" alt="Animal 3">
+                </div>
+            </div>
+            <button class="carousel-button prev" onclick="moverCarrousel(-1)">&#10094;</button>
+            <button class="carousel-button next" onclick="moverCarrousel(1)">&#10095;</button>
+        </section>
+        
+        <section>
+            <h2>Refugios por zona</h2>
+            <div id="refugios" class="refugio-lista">
+                <div class="refugio">
+                    <strong>Cuchas Amigables (Villa Giardino)</strong><br>
+                    Tel: 0341 615-5344<br>
+                    Email: jorgeharraca@hotmail.com<br>
+                    Dirección: Atalaya 941, Villa Giardino, Argentina
+                </div>
+                <div class="refugio">
+                    <strong>Refugio canino municipal (La Falda)</strong><br>
+                    Dirección: La Falda, Córdoba
+                </div>
+                <div class="refugio">
+                    <strong>Rescataditos (Valle Hermoso)</strong><br>
+                    Tel: +354 843 5949<br>
+                    Dirección: 5168 Valle Hermoso, Córdoba
+                </div>
+                <div class="refugio">
+                    <strong>Alma Animal (Valle Hermoso)</strong><br>
+                    Tel: 03548 46-4658<br>
+                    Dirección: Gdor. Cárcano 381, Valle Hermoso, Córdoba
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.Facebook.com/amilcarpzk/" target="_blank">
+                <img src="img/J.P.-0.webp" alt="Instagram" height="50" width="50">
+            </a>
+            <a href="https://www.intagram.com" target="_blank">
+                <img src="img/intagram.jpeg" alt="Facebook" height="50" width="50">
+            </a>
+        </div>
+        <p>© 2024 Pets.net. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
